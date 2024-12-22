@@ -6,9 +6,9 @@ html , body{
 }
 body{
 background-color: #57939b;
-color:black ;
+color:rgb(245, 241, 241) ;
 text-align: center;
-background-image: url(earth.jpg);
+background-image: url(earth.gif);
 background-size: cover;
 }
 
@@ -20,10 +20,18 @@ align-content: center;
 flex-direction: column;
 
 }
+.mb-20{
+    margin-bottom: 20px;
 
+}
+.mt-10{
+    margin-top: 10px;
+
+}
 .headline{
     font-size: 5em;
-    font-weight: bolder;
+    font-family: cursive;
+    margin-bottom: 30px;
 }
 .holder label:first-of-type{
     display:block;
@@ -43,17 +51,16 @@ flex-direction: column;
     border-radius: 20px;
     text-align: center;
     width: 30%;
-    height: 20%;
     font-size: 1.5em;
 }
 .feel button{
     display: block;
     margin: auto;
     font-size: 1.5em;
-    background-color: grey;
-    color: antiquewhite;
+    background-color: #2300ff;
+    color: white;
     border-radius: 1em;
-    padding: 0.4em;
+    padding: 9px 20px;
     border: 3px solid #0e0e0d;
     cursor: pointer;
 }
